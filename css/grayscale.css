@@ -41,6 +41,7 @@ p {
         margin: 0 0 35px;
         font-size: 20px;
         line-height: 1.6;
+        text-shadow: 1px 1px 5px #585858
     }
 }
 
@@ -166,8 +167,8 @@ a:focus {
 
     .intro .intro-body .brand-heading {
         font-size: 120px;
-        margin-top: 10%;
-        text-shadow: 2px 2px 5px #585858
+        margin-top: 11%;
+        text-shadow: 2px 2px 5px #585858;
     }
 
     .intro .intro-body .intro-text {
@@ -175,9 +176,6 @@ a:focus {
     }
 }
 
-.intro-text {
-    text-shadow: 2px 2px 5px #585858
-}
 
 .btn-circle {
     width: 70px;
@@ -286,6 +284,7 @@ a:focus {
     border: 1px solid #6B92B5;
     color: #fff;
     background-color: #6B92B5;
+    box-shadow: 1px 1px 5px #151515;
 }
 
 .btn-default:hover,
@@ -380,5 +379,17 @@ body {
 
 .example-image:hover {
     border-width:0;
-    border: 1px solid  rgba(0,0,0,0.7);}
+    border: 1px solid  rgba(0,0,0,0.7);
+}
+
+.row h2 {
+    text-shadow: 2px 2px 5px #151515;
+}
+
+.row p {
+    text-shadow: 2px 2px 5px #151515;
+}
+
+.intro-text {
+    text-shadow: 2px 2px 5px #585858 !important;
 }
