@@ -167,11 +167,16 @@ a:focus {
     .intro .intro-body .brand-heading {
         font-size: 120px;
         margin-top: 10%;
+        text-shadow: 2px 2px 5px #585858
     }
 
     .intro .intro-body .intro-text {
         font-size: 50px;
     }
+}
+
+.intro-text {
+    text-shadow: 2px 2px 5px #585858
 }
 
 .btn-circle {
@@ -184,6 +189,7 @@ a:focus {
     font-size: 40px;
     color: #fff;
     background: 0 0;
+    text-shadow: 1px 1px 4px #585858;
     -webkit-transition: background .3s ease-in-out;
     -moz-transition: background .3s ease-in-out;
     transition: background .3s ease-in-out;
@@ -351,7 +357,7 @@ body {
 }
 
 .row {
-    margin-top: 100px;
+    margin-top: 50px;
     margin-bottom: 100px;
 }
 
