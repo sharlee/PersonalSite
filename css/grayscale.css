@@ -393,3 +393,7 @@ body {
 .intro-text {
     text-shadow: 2px 2px 5px #585858 !important;
 }
+
+.workHeader {
+    text-align: right;
+}
